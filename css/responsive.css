@@ -1,0 +1,9 @@
+@media screen and (max-width: 1200px) {
+  .inpDiv {
+    width: 80% !important;
+  }
+  input::placeholder {
+    font-family: poppins;
+    color: white;
+  }
+}

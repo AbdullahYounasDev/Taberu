@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rozha+One&display=swap");
+/* Main Classes */
+body {
+  background-color: #fff0de;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.rozha-one {
+  font-family: "Rozha One", serif;
+}
+.fs-60 {
+  font-size: 60px !important;
+}
+.fs-54 {
+  font-size: 54px !important;
+}
+.fs-28 {
+  font-size: 28px !important;
+}
+.fs-24 {
+  font-size: 24px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-15 {
+  font-size: 15px !important;
+}
+.c_pink {
+  color: #b1454a !important;
+}
+.c_grey {
+  color: #605d5d !important;
+}
+.bg_pink {
+  background: #b1454a !important;
+}
+.border_pink {
+  border: 1px solid #b1454a !important;
+}
+.border_white {
+  border: 1px solid white !important;
+}
+button:hover {
+  scale: 1.1;
+  transition: 0.3s ease-in-out;
+}
+/* For Nav Bar */
+.nav-link:hover {
+  color: #b1454a !important;
+}
+/* for Hero Sec */
+.hero-sec-col-1 {
+  background-image: url("/images/hero_jap.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+.hero-sec-col-2 .container img {
+  right: -105px;
+}
+/* second-sec */
+.second-sec-bg-img {
+  background-image: url("/images/jap-one.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/* third sec */
+.menu-item:hover {
+  cursor: pointer;
+  background: white !important;
+  color: #b1454a !important;
+  transition: 0.3s ease-in-out;
+}
+.prod1 {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(1px);
+  cursor: pointer;
+}
+
+.prod1-img {
+  background-color: #f1c7c9;
+}
+.prod2-img {
+  background-color: #c5c4c4;
+}
+/* last sec */
+.inpDiv {
+  width: 57% !important;
+}
+input {
+  border: none;
+  outline: none !important;
+  width: 63%;
+}
+input::placeholder {
+  font-family: poppins;
+  color: white;
+}
+/* For Leafs */
+.leaf1 {
+  left: 150px;
+}
+.leaf2 {
+  top: 100px;
+}
+.leaf3 {
+  left: 10px !important;
+  bottom: 185px;
+}
+.leaf4 {
+  bottom: 72px !important;
+  z-index: -1;
+}
+.leaf7 {
+  bottom: -46px !important;
+}
+.leaf8 {
+  bottom: -52px !important;
+  left: 115px !important;
+}
+.leaf9 {
+  top: -25px;
+  right: 70px;
+}
+.leaf10 {
+  bottom: -85px;
+}
+.leaf11 {
+  bottom: 200px;
+  right: 50px !important;
+}
